@@ -1,0 +1,47 @@
+/* Dark Green Medical Theme */
+body, .stApp {
+    background-color: #0f1e17;
+    color: #e8f5e9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sidebar .sidebar-content {
+    background-color: #082318;
+}
+
+/* Card style for MRI and results */
+.mri-card {
+    background: #fafafa;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #1b5e20;
+}
+
+.result-card {
+    background: #e8f5e9;
+    padding: 18px;
+    border-radius: 12px;
+    border-left: 6px solid #1b5e20;
+}
+
+/* Prediction severity colors */
+.result-healthy { color: #2e7d32; font-size: 26px; font-weight: 700; }
+.result-mci { color: #e6a300; font-size: 26px; font-weight: 700; }
+.result-ad { color: #b71c1c; font-size: 26px; font-weight: 700; }
+
+/* Buttons */
+.stButton>button {
+    background-color: #1b5e20;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 18px;
+}
+.stButton>button:hover {
+    background-color: #2e7d32;
+}
